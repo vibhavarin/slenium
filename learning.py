@@ -23,5 +23,4 @@ def simple_decorator(func):
 @simple_decorator
 def hallo(name):
     print('hallo',{name})
-
- hallo("alice")
+hallo("alice")
